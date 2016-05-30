@@ -102,6 +102,5 @@ class QuestionContent(BaseContent):
 
 
 if __name__ == '__main__' :
-
     c = QuestionContent(urls.start_url)
     c.parse_question_info()
